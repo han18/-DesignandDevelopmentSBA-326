@@ -17,6 +17,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="styles.css">
 
     <title>Frontend Mentor | [Challenge Name Here]</title>
 
@@ -37,18 +38,35 @@
       <h1 class="text-center mb-4">inner container cords</h1>   
            <!-- // ====== Left side card container ============== -->
 
-      <div class="container mt-5 d-flex" style="border: 2px solid red; width: 700px; float: left">
+      <div class="container mt-5 d-flex" style="border: 2px solid red; width: 750px; float: left">
         <div class="container">
           <div class="row">
           <div class="col-sm">
           columns one
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+          <div class="card" style="width: 25rem; background-color: hsl(263, 55%, 52%);">
+            <!-- // this wraps the image and the side text -->
+            <div class="d-flex" >                         
+                <div class="icon-container">
+                  <div class="icon">
+                      <img src="images/image-daniel.jpg" alt="David Clifford">
+                  </div>
+                  <div class="icon-text">
+                      <h6>David Clifford</h6>
+                      <p class="header-text-p">Verified Graduate</p>
+                  </div>
+                  
+              </div>
+
+              <!-- // this is the text content of the card! -->
             </div>
+            <div class="card-body">
+              <p class="card-text" style="font-weight: bold; color: white">I received a job offer mid-course, and the subjects I learned were current, if not more so, 
+                in the company I joined. I honestly feel I got every penny’s worth.</p>
+                <p></p>
+             
+            </div>
+
+            <!-- // ===== customized card ENDS here =============  -->
           </div>
           </div>
           <div class="col-sm">
@@ -68,8 +86,8 @@
           <div class="container">
             <div class="row">
             <div class="col-sm">
-            columns one
-            <div class="card" style="width: 18rem;">
+            columns three
+            <div class="card" style="width: 15rem;">
               <img src="..." class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -79,7 +97,7 @@
             </div>
             </div>
             <div class="col-sm">
-            columns two
+            columns four
             <div class="card" style="width: 18rem;">
               <img src="..." class="card-img-top" alt="...">
               <div class="card-body">
@@ -94,11 +112,11 @@
         </div>
         <!-- //=====================End of right side container ================= // -->
          <!-- // ===== This is the right side grid and it's cards -->
-        <div class="container mt-5 d-flex" style="border: 2px solid rgb(0, 200, 255); width: 400px; float: right; height: 500px;">
+        <div class="container mt-5 d-flex" style="border: 2px solid rgb(0, 200, 255); width: 350px; float: right; height: 500px;">
           <div class="container">
             <div class="row">
             <div class="col-sm">
-            columns one
+            RIGHT columns
             <div class="card" style="width: 18rem;">
               <img src="..." class="card-img-top" alt="...">
               <div class="card-body">

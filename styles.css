@@ -1,0 +1,28 @@
+
+
+.icon-container {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    margin-top: 10px;
+}
+
+.icon {
+    margin-right: 10px; /* Space between the image and text */
+}
+
+.icon img {
+    width: 50px; /* Set a width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 15px;
+    border-radius: 50%; /* Optional: make the image circular */
+}
+
+h6 {
+    margin: 0;
+}
+
+.header-text-p {
+    margin: 0;
+    font-size: 10px;
+}
+

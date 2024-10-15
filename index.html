@@ -20,121 +20,174 @@
     <link rel="stylesheet" href="styles.css">
 
     <title>Frontend Mentor | [Challenge Name Here]</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <!-- <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style> -->
   </head>
   <body>
-  
-    <div class="container mt-5">
-      <h1 class="text-center mb-4">Card Layout</h1>
-      <div class="row">
-          <!-- Left Column: 4 Adjustable Height Cards -->
-          <div class="col-md-8">
+    <div class="container-fluid border" style="width: 1140px; margin-top: 60px; background-color: hsl(210, 46%, 95%); height: 1000px">
+      <div class="row" style="border: 1px solid red; margin-top: 30px;">
+          <div class="col-md-6">
               <div class="row">
-                  <div class="col-md-6 mb-4">
-                    <div class="card" style="width: 30rem; background-color: hsl(263, 55%, 52%);">
-                      <!-- // this wraps the image and the side text -->
-                      <div class="d-flex" >                         
-                          <div class="icon-container">
-                            <div class="icon">
-                                <img src="images/image-daniel.jpg" alt="David Clifford">
+                  <div class="col-6">
+                      <div class="box">
+
+                        <div class="card" style="width: 30rem; background-color: hsl(263, 55%, 52%);">
+                          <!-- // this wraps the image and the side text -->
+                          <div class="d-flex" >                         
+                              <div class="icon-container">
+                                <div class="icon">
+                                    <img src="images/image-daniel.jpg" alt="David Clifford">
+                                </div>
+                                <div class="icon-text">
+                                    <h6>David Clifford</h6>
+                                    <p class="header-text-p">Verified Graduate</p>
+                                </div>
+                                
                             </div>
-                            <div class="icon-text">
-                                <h6>David Clifford</h6>
-                                <p class="header-text-p">Verified Graduate</p>
-                            </div>
-                            
-                        </div>
-          
-                        <!-- // this is the text content of the card! -->
-                      </div>
-                      <div class="card-body">
-                        <p class="card-text" style="font-weight: bold; color: white; font-size: 12px;">I received a job offer mid-course, and the subjects I learned were current, if not more so, 
-                          in the company I joined. I honestly feel I got every penny’s worth.</p>
-                          <p style="color: hsl(0, 0%, 81%); font-size: 11px;"> “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
-                            transition and have heard some people who had an amazing experience here. I signed up 
-                            for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
-                            The next 12 weeks was the best - and most grueling - time of my life. Since completing 
-                            the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
-                          </p>             
-                      </div>
-                    </div>   
-                  </div>
-                   <!-- // ======= Card two Here ========= -->
-                  <div class="col-md-6 mb-4">
-                    <div class="card" style="width: 15rem; background-color: hsl(217, 19%, 35%);">
-                      <!-- // this wraps the image and the side text -->
-                      <div class="d-flex" >                         
-                          <div class="icon-container">
-                            <div class="icon">
-                                <img src="images/image-jonathan.jpg" alt="David Clifford">
-                            </div>
-                            <div class="icon-text">
-                                <h6>Jonathan Walters</h6>
-                                <p class="header-text-p">Verified Graduate</p>
-                            </div>
-                            
-                        </div>
-          
-                        <!-- // this is the text content of the card! -->
-                      </div>
-                      <div class="card-body">
-                        <p class="card-text" style="font-weight: bold; color: white; font-size: 12px;">  The team was very supportive and kept me motivated
-                        </p>
-                          <p style="color: hsl(0, 0%, 81%); font-size: 11px;"> “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
-                            for a big company. This was one of the best investments I’ve made in myself. ”
-                          </p>             
-                      </div>
-                    </div> here       
-                  </div>
-                  <div class="col-md-6 mb-4">
-                      <div class="card">
-                          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image 3">
-                          <div class="card-body">
-                              <h5 class="card-title">Card Title 3</h5>
-                              <p class="card-text">Description for Card 3.</p>
-                              <a href="#" class="btn btn-success">Go somewhere</a>
+              
+                            <!-- // this is the text content of the card! -->
                           </div>
+                          <div class="card-body">
+                            <p class="card-text" style="font-weight: bold; color: white; font-size: 12px;">I received a job offer mid-course, and the subjects I learned were current, if not more so, 
+                              in the company I joined. I honestly feel I got every penny’s worth.</p>
+                              <p style="color: hsl(0, 0%, 81%); font-size: 11px;"> “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
+                                transition and have heard some people who had an amazing experience here. I signed up 
+                                for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
+                                The next 12 weeks was the best - and most grueling - time of my life. Since completing 
+                                the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
+                              </p>             
+                          </div>
+                        </div> 
+                        <br>   
                       </div>
                   </div>
-                  <!-- //===================================================//================== -->
-                  <div class="col-md-6 mb-4">
-                      <div class="card">
-                          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image 4">
-                          <div class="card-body">
-                              <h5 class="card-title">Card Title 4</h5>
-                              <p class="card-text">Description for Card 4.</p>
-                              <a href="#" class="btn btn-danger">Go somewhere</a>
+                  <div class="col-6">
+                    <!-- // box 2 -->
+                    
+                      <div class="box">
+                        <div class="card" style="width: 16rem; background-color: hsl(217, 19%, 35%); margin-left: 220px; height: 265px;">
+                          <!-- // this wraps the image and the side text -->
+                          <div class="" >                         
+                              <div class="icon-container">
+                                <div class="icon">
+                                  <img src="images/image-jonathan.jpg" alt="Jonathan">
+                                </div>
+                                <div class="icon-text">
+                                    <h6>Jonathan Walters</h6>
+                                    <p class="header-text-p">Verified Graduate</p>
+                                </div>
+                                
+                            </div>
+              
+                            <!-- // this is the text content of the card! -->
                           </div>
+                          <div class="card-body">
+                            <p class="card-text" style="font-weight: bold; color: white; font-size: 12px;">  The team was very supportive and kept me motivated
+                            </p>
+                              <p style="color: hsl(0, 0%, 81%); font-size: 11px;"> “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
+                                for a big company. This was one of the best investments I’ve made in myself. ”
+                              </p>           
+                          </div>
+                        </div>    
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-6">
+                      <div class="box">
+                        <div class="card" style="width: 16rem; ">
+                          <!-- // this wraps the image and the side text -->
+                          <div class="d-flex" >                         
+                              <div class="icon-container">
+                                <div class="icon">
+                                  <img src="images/image-jeanette.jpg" alt="woman">
+                                </div>
+                                <div class="icon-text">
+                                  <h6 style="color: black">Jeanette Harmon</h6>
+                                  <p class="header-text-p">Verified Graduate</p>
+                                </div>
+                                
+                            </div>
+              
+                            <!-- // this is the text content of the card! -->
+                          </div>
+                          <div class="card-body">
+                            <p class="card-text" style="font-weight: bold; color: rgb(4, 4, 10); font-size: 12px; height: 53px;"> An overall wonderful and rewarding experience.</p>
+                              <p style="color: hsl(217, 19%, 35%); font-size: 11px;"> “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
+                                while doing something I love. ”
+                              </p>             
+                          </div>
+                        </div>     
+                      </div>
+                  </div>
+                  <div class="col-6">
+                      <div class="box">
+                        <div class="card" style="width: 30rem; background-color: hsl(219, 29%, 14%); margin-right: 90px">
+                          <!-- // this wraps the image and the side text -->
+                                                
+                              <div class="icon-container">
+                                <div class="icon">
+                                    <img src="images/image-patrick.jpg" alt="David Clifford">
+                                </div>
+                                <div class="icon-text">
+                                    <h6>Patrick Abrams</h6>
+                                    <p class="header-text-p">Verified Graduate</p>
+                                </div>
+                                
+                            </div>
+              
+                            <!-- // this is the text content of the card! -->
+                        
+                          <div class="card-body">
+                            <p class="card-text" style="font-weight: bold; color: white; font-size: 12px;">Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
+                              learning from their experiences was easy.</p>
+                              <p style="color: hsl(0, 0%, 81%); font-size: 11px;"> “ The staff seem genuinely concerned about my progress which I find really refreshing. The program 
+                                gave me the confidence necessary to be able to go out in the world and present myself as a capable 
+                                junior developer. The standard is above the rest. You will get the personal attention you need from 
+                                an incredible community of smart and amazing people. ”
+                              </p>             
+                          </div>
+                        </div>    
                       </div>
                   </div>
               </div>
           </div>
-          <!-- Right Column: 1 Adjustable Height Card -->
-          <div class="col-md-4 mb-4">
-              <div class="card h-100"> <!-- h-100 ensures the card takes full height -->
-                  <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image 5">
-                  <div class="card-body">
-                      <h5 class="card-title">Card Title 5</h5>
-                      <p class="card-text">Description for Card 5.</p>
-                      <a href="#" class="btn btn-warning">Go somewhere</a>
+          <!-- // long right box here -->
+          <div class="col-md-6">
+              <div class="long-box">
+                <div class="card" style="width: 20rem; background-color: white; margin-left: 230px; height: 540px;">
+                  <!-- // this wraps the image and the side text -->
+                  <div class="d-flex" >                         
+                      <div class="icon-container">
+                        <div class="icon">
+                            <img src="images/image-kira.jpg" alt="David Clifford">
+                        </div>
+                        <div class="icon-text">
+                            <h6>Kira Whittle</h6>
+                            <p class="header-text-p">Verified Graduate</p>
+                        </div>
+                        
+                    </div>
+      
+                    <!-- // this is the text content of the card! -->
                   </div>
+                  <div class="card-body">
+                    <p class="card-text" style="font-weight: bold; color: rgb(4, 4, 10); font-size: 12px;">  Such a life-changing experience. Highly recommended!
+                    </p>
+                      <p style="color: hsl(217, 19%, 35%); font-size: 11px;">“ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from 
+                        professionals who can help me learn programming step by step. I was encouraged to enroll by a former 
+                        student of theirs who can only say wonderful things about the program. The entire curriculum and staff 
+                        did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team 
+                        project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial 
+                        could ever have. In fact, I’ve often referred to it during interviews as an example of my developent 
+                        experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 
+                        100% recommend! ”
+                  </div>
+                </div>     
               </div>
           </div>
       </div>
   </div>
 
-
-
+    
   </body>
 </html>
 

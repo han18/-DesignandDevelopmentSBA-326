@@ -1,5 +1,17 @@
 # Frontend Mentor - Testimonials grid section
 
+# Explaining my design 
+
+I choose the Testimonials grid section design which contains 4 blocks and a right side blcok 
+
+I used Bootstrap grids and boxes and used cards to structure the content and images position.
+
+I used bootstrap classe and inline style to acheive the 
+
+I used css for the top right content because it wasn't easy to acheieve the designs results using BootStrap alone.
+
+
+
 ![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋

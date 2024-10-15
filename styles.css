@@ -1,20 +1,22 @@
-
+body {
+    background-color: hsl(210, 46%, 95%);
+}
 
 .icon-container {
     display: flex;
-    align-items: center; /* Vertically center items */
+    align-items: center; 
     margin-top: 30px;
 }
 
 .icon {
-    margin-right: 10px; /* Space between the image and text */
+    margin-right: 10px; /* to add space between the image and text */
 }
 
 .icon img {
-    width: 50px; /* Set a width for the image */
-    height: auto; /* Maintain aspect ratio */
+    width: 50px; /* width for the image */
+    height: auto; 
     margin-left: 15px;
-    border-radius: 50%; /* Optional: make the image circular */
+    border-radius: 50%; 
 }
 
 h6 {

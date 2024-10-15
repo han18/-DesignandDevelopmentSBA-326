@@ -2,13 +2,13 @@
 
 # Explaining my design 
 
-I choose the Testimonials grid section design which contains 4 blocks and a right side blcok 
+I chose the "Testimonials grid section" design which contains 4 blocks and a right side block with text, icons, and an image
 
-I used Bootstrap grids and boxes and used cards to structure the content and images position.
+I used Bootstrap grid and boxes and used cards to structure the content and images position.
 
-I used bootstrap classe and inline style to acheive the 
+I used bootstrap classe and inline style to acheive a closer design
 
-I used css for the top right content because it wasn't easy to acheieve the designs results using BootStrap alone.
+I used css for the top right content of the icon because it wasn't easy to acheieve the exact design using BootStrap alone.
 
 
 
